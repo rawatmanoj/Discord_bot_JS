@@ -45,7 +45,6 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 | !skipall      | Skip all songs in queue                                                                                                   | !skipall               |
 | !skipto       | Skip to a specific song in the queue, provide the song number as an argument                                              | !skipto 5              |
 | !volume       | Adjust song volume                                                                                                        | !volume 80             |
-| !music-trivia | Engage in a music trivia with your friends. You can add more songs to the trivia pool in resources/music/musictrivia.json | !music-trivia          |
 | !loop         | Loop the currently playing song                                                                                           | !loop                  |
 | !lyrics       | Get lyrics of any song or the lyrics of the currently playing song                                                        | !lyrics song-name      |
 
@@ -62,9 +61,6 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 | !random      | Generate a random number between two provided numbers                                                                                                               | !random 0 100         |
 | !reddit      | Replies with 5 top non nsfw subreddit posts                                                                                                                         | !reddit askreddit     |
 | !say         | Make the bot say anything                                                                                                                                           | !say Lorem Ipsum      |
-| !translate   | Translate to any language using yandex translation service(only supported lanugages)                                                                          | !translate ありがとう |
-| !whomademe   | Info about me and the repo                                                                                                                                          | !whomademe            |
-| !uptime      | Replies with the bot's total uptime                                                                                                                                 | !uptime               |
 
 - Gifs
 
@@ -72,8 +68,6 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 | --------- | ----------------------------------- | ----------------------- |
 | !animegif | Get an anime related gif by a query | !animegif one punch man |
 | !gif      | Get any gif by a query              | !gif labrador           |
-| !gintama  | Replies with a random gintama gif   | !gintama                |
-| !jojo     | Replies with a random jojo gif       | !jojo                   |
 
 - Guild
 
@@ -83,27 +77,3 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 | !kick                 | Kicks a tagged member           | !kick @johndoe                        |
 | !prune                | Delete up to 99 recent messages | !prune 50                             |
 
-### Resources
-
-[Get a Tenor API key here](https://tenor.com/developer/keyregistration)
-
-[Get a NewsAPI API key here](https://newsapi.org/)
-
-[How to get a Youtube API key](https://developers.google.com/youtube/v3/getting-started)
-
-[Get a Yandex API key here](https://translate.yandex.com/developers/keys)
-
-[Get a Genius API key here](https://genius.com/api-clients/new)
-
-[Installing node.js on debian](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-debian-9)
-
-[Installing node.js on Windows](https://treehouse.github.io/installation-guides/windows/node-windows.html)
-
-### Contributing
-
-Fork it and submit a pull request!
-Anyone is welcome to suggest new features and improve code quality!
-
-### Tasks
-
-* Change framework (probably to akairo)
