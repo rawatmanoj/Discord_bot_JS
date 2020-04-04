@@ -6,7 +6,7 @@ const { Command } = require('discord.js-commando');
 module.exports = class GlobalNewsCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'world-news',
+      name: 'samachar',
       aliases: ['global-news', 'reuters'],
       group: 'other',
       memberName: 'world-news',
@@ -19,12 +19,14 @@ module.exports = class GlobalNewsCommand extends Command {
   }
 
   async run(message) {
-    // powered by NewsAPI.org
+   // powered by NewsAPI.org
     try {
       const response = await fetch(
         `https://newsapi.org/v2/top-headlines?sources=reuters&pageSize=5&apiKey=${newsAPI}`
       );
       const json = await response.json();
+
+      console.log(json.articles);
       const articleArr = json.articles;
       let processArticle = article => {
         const embed = new MessageEmbed()
@@ -50,4 +52,5 @@ module.exports = class GlobalNewsCommand extends Command {
       return console.error(e);
     }
   }
+
 };

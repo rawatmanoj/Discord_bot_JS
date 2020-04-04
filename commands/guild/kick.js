@@ -4,8 +4,8 @@ const { MessageEmbed } = require('discord.js');
 module.exports = class KickCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'kick',
-      aliases: ['kick-member', 'throw'],
+      name: 'nikal',
+      aliases: ['kick-member','throw'],
       memberName: 'kick',
       group: 'guild',
       description: 'Kicks a tagged member',
