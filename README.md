@@ -107,9 +107,3 @@ Anyone is welcome to suggest new features and improve code quality!
 ### Tasks
 
 * Change framework (probably to akairo)
-
-## Contributors
-
-[encoder-glitch](https://github.com/encoder-glitch) - uptime command
-
-[chimaerra](https://github.com/chimaerra) - minor command tweaks
