@@ -32,7 +32,7 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 
 | Command       | Description                                                                                                               | Usage                  |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
-| !play         | Play any song or playlist from youtube, you can do it by searching for a song by name or song url or playlist url         | !play darude sandstorm |
+| !play         | Play any song or playlist from youtube, you can do it by searching for a song by name or song url or playlist url         | !play Mr Brightside |
 | !pause        | Pause the current playing song                                                                                            | !pause                 |
 | !resume       | Resume the current paused song                                                                                            | !resume                |
 | !leave        | Leaves voice channel if in one                                                                                            | !leave                 |
@@ -48,30 +48,30 @@ If you are not cloning this repo, make sure your dependencies versions are the s
 
 - Misc
 
-| Command      | Description                                                                                                                                                         | Usage                 |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------- |
-| !cat         | Get a cute cat picture                                                                                                                                              | !cat                  |
-| !fortune     | Get a fortune cookie tip                                                                                                                                            | !fortune              |
-| !insult      | Generate an evil insult                                                                                                                                             | !insult               |
-| !chucknorris | Get a satirical fact about Chuck Norris                                                                                                                             | !chucknorris          |
-| !motivation  | Get a random motivational quote                                                                                                                                     | !motivation           |
-| !global-news | Latest headlines from reuters, you can change the news source to whatever news source you want, just change the source in line 13 in global-news.js or ynet-news.js | !global-news          |
-| !random      | Generate a random number between two provided numbers                                                                                                               | !random 0 100         |
-| !reddit      | Replies with 5 top non nsfw subreddit posts                                                                                                                         | !reddit askreddit     |
-| !say         | Make the bot say anything                                                                                                                                           | !say Lorem Ipsum      |
+| Command      | Description                                                                                                                                                         
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+| !cat         | Get a cute cat picture                                                                                                                                              
+| !fortune     | Get a fortune cookie tip                                                                                                                                           
+| !insult      | Generate an evil insult                                                                                                                                            
+| !chucknorris | Get a satirical fact about Chuck Norris                                                                                                                             
+| !motivation  | Get a random motivational quote                                                                                                                                    
+| !global-news | Latest headlines from reuters, you can change the news source to whatever news source you want, just change the source in line 13 in global-news.js or ynet-news.js 
+| !random      | Generate a random number between two provided numbers                                                                                                               
+| !reddit      | Replies with 5 top non nsfw subreddit posts                                                                                                                         
+| !say         | Make the bot say anything                                                                                                                                           
 
 - Gifs
 
-| Command   | Description                         | Usage                   |
-| --------- | ----------------------------------- | ----------------------- |
-| !animegif | Get an anime related gif by a query | !animegif one punch man |
-| !gif      | Get any gif by a query              | !gif labrador           |
+| Command   | Description                         
+| --------- | ----------------------------------- 
+| !animegif | Get an anime related gif by a query 
+| !gif      | Get any gif by a query              
 
 - Guild
 
-| Command               | Description                     | Usage                                 |
-| --------------------- | ------------------------------- | ------------------------------------- |
-| !ban                  | Bans a tagged member            | !ban @johndoe                         |
-| !kick                 | Kicks a tagged member           | !kick @johndoe                        |
-| !prune                | Delete up to 99 recent messages | !prune 50                             |
+| Command               | Description                     
+| --------------------- | ------------------------------- 
+| !ban                  | Bans a tagged member           
+| !kick                 | Kicks a tagged member           
+| !prune                | Delete up to 99 recent messages 
 
